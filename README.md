@@ -4,7 +4,11 @@ ActionSheet is a cross-platform React Native component that uses the native UIAc
 
 ## Installation
 ```
-npm install @expo/react-native-action-sheet
+npm install @harvest-profit/action-sheet
+```
+or
+```
+yarn add @harvest-profit/action-sheet
 ```
 
 ## Try it out
