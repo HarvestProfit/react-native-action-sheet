@@ -1,5 +1,5 @@
 {
-  "name": "@expo/react-native-action-sheet",
+  "name": "@harvest-profit/action-sheet",
   "version": "1.0.1",
   "description": "A cross-platform ActionSheet for React Native",
   "main": "index.js",
@@ -22,7 +22,7 @@
     "index.js",
     "README.md"
   ],
-  "author": "Jesse Ruder <jesse@sixfivezero.net>",
+  "author": "Jaryd Krishnan <jaryd@harvestprofit.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/expo/react-native-action-sheet/issues"
