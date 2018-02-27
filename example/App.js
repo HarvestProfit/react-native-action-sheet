@@ -4,7 +4,7 @@ import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { Entypo } from '@expo/vector-icons';
 import { ActionSheetProvider, connectActionSheet } from '@expo/react-native-action-sheet';
 
-class AppContainer extends React.Component {
+export default class AppContainer extends React.Component {
   render() {
     return (
       <ActionSheetProvider>
@@ -21,7 +21,7 @@ class App extends React.Component {
       <View style={styles.container}>
         <View style={{ marginBottom: 30 }}>
           <Text style={{ textAlign: 'center' }}>
-            Hello! This is a simple example app to demonstrate @exponent/react-native-action-sheet.
+            Hello! This is a simple example app to demonstrate @expo/react-native-action-sheet.
           </Text>
         </View>
 
@@ -58,5 +58,3 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
-
-Expo.registerRootComponent(AppContainer);
